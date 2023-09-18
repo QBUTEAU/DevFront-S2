@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>TPWR212 - Parallaxe</title>
+</head>
+<body>
+    <div id="menu">
+        <div id="logo">BOB DOE</div>
+        <div id="liens">
+            <ul>
+                <li><a href="#z1">Accueil</a></li>
+                <li><a href="#z2">Galerie</a></li>
+                <li><a href="#z3">Compétences</a></li>
+                <li><a href="#z4">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="z1">
+        <div id="sc1">
+            <h1>Accueil</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ipsum in nesciunt, natus non dolores quisquam rem amet
+                totam ratione dignissimos minus vel. Delectus asperiores
+                molestias nisi earum, enim odit cum sapiente voluptas rem
+                quae provident iure suscipit iste neque illum repellendus
+                vero perferendis id expedita. Nisi corrupti vitae ex ab
+                recusandae nam molestiae! Deserunt facere modi ea laudantium
+                nulla, eveniet quasi, beatae autem totam consequuntur tempora
+                aliquam. Reprehenderit quod pariatur fuga maxime ea consequatur
+                quos eum ad voluptates possimus temporibus corporis accusantium
+                ut impedit labore architecto eaque porro, esse maiores nemo. Rem
+                voluptas explicabo itaque illum consequatur hic, ipsum quidem.</p>
+        </div>
+    </div>
+    <div id="z2">
+        <div id="sc2">
+            <h1>Galerie</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Enim placeat culpa, deserunt deleniti dolorem quae aliquid,
+                cum ab nesciunt itaque sunt pariatur unde aut neque nobis fugiat
+                laborum nostrum! Sapiente inventore ut a fuga reiciendis quasi
+                enim odio praesentium hic quidem aperiam ipsa, suscipit maxime
+                tempora dolor incidunt repellendus quod? Maxime excepturi a, explicabo
+                sint assumenda nobis, facere adipisci praesentium, nostrum nam impedit
+                incidunt corporis? Sunt non nulla quod. Enim adipisci dolorem quos,
+                debitis doloremque quia voluptas, architecto aperiam velit sequi possimus
+                pariatur est consectetur numquam vitae provident quasi soluta! Doloremque
+                delectus nihil voluptatibus nobis voluptates eaque voluptas qui assumenda
+                vitae facilis blanditiis obcaecati facere doloribus consequuntur atque non
+                dolorem, architecto quae modi saepe tempora pariatur. Quos ducimus aliquid
+                consectetur?</p>
+        </div>
+    </div>
+    <div id="z3">
+        <div id="sc3">
+            <h1>Compétences</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                et cupiditate deserunt soluta. Aliquam architecto ab, vel consequatur,
+                explicabo sequi aut voluptate perferendis amet excepturi optio nihil,
+                odit similique voluptates? Rerum blanditiis exercitationem praesentium
+                quidem id soluta dolorum illum, iure quasi quod, distinctio ea ipsam magni
+                facilis nesciunt rem quibusdam delectus excepturi. Voluptatum officiis totam
+                reprehenderit ea exercitationem esse est, quas illum ad repellat impedit veniam,
+                veritatis, facere ut repudiandae aliquam amet? Praesentium totam cum sunt sit,
+                similique dolor saepe amet rem aliquid fugiat esse adipisci eligendi laboriosam
+                itaque laudantium dignissimos dolores reprehenderit. Rerum alias quibusdam blanditiis
+                dignissimos adipisci. Necessitatibus eveniet atque nobis tenetur quia ipsa possimus
+                laborum vel similique!</p>
+        </div>
+    </div>
+    <div id="z4">
+        <div id="sc4">
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum temporibus eum non,
+                libero fugit vero itaque facere quam quo voluptatibus, aut fuga, veritatis quibusdam
+                adipisci deserunt? Voluptatum, nesciunt ex earum voluptatibus distinctio veniam aperiam,
+                culpa minima nisi praesentium, iste animi ipsa maiores esse nam quia. Officia delectus,
+                maxime ipsum, fugiat facere corporis distinctio aliquid dignissimos ullam necessitatibus 
+                unt ut, perspiciatis sapiente! Repellat, dolorem, quidem sit possimus veritatis repellendus,
+                maxime ducimus aut ab voluptatum itaque ut. Officiis ipsam, dolorum debitis aperiam ipsum ad,
+                facilis ducimus adipisci corrupti dignissimos sapiente repellat necessitatibus.</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="scripts/jquery.scrollTo.min.js"></script>
+    <script src="scripts/jquery.localScroll.min.js"></script>
+    <script src="scripts/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function()
+        {$.localScroll() ;
+            $('#z1').parallax("50%", 0.3 );
+            $('#z2').parallax("50%", 0.3 );
+            $('#z3').parallax("50%", 0.3 );
+            $('#z4').parallax("50%", 0.3 );
+        }
+        );
+
+    </script>
+</body>
+</html>

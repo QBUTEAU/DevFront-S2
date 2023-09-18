@@ -1,0 +1,12 @@
+.navigation{
+    width: 100px;
+}
+ul{
+    list-style-type: none;
+}
+#d1{
+    background-color: lightgrey;
+}
+#d2{
+    background-color: lightblue;
+}

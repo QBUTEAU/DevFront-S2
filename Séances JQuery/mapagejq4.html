@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('li:even').mouseenter(function(){
+                $(this).removeClass('bleu');
+            });
+            $('li:even').mouseleave(function(){
+			    $(this).addClass('bleu');
+		    });
+        });
+    </script>
+    <link rel='stylesheet' href='mapagejq4.css'>
+    <title>WR212 - JQuery - Page 4</title>
+</head>
+<body>
+    <div id="navigation">
+        <ul>
+            <li class="bleu">Menu 1</li>
+            <li class="bleu stabilo">Menu 2</li>
+            <li class="bleu souligne">Menu 3</li>
+            <li class="bleu souligne">Menu 4</li>
+        </ul>
+    </div>
+</body>
+</html>
